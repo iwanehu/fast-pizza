@@ -18,7 +18,7 @@ export async function getAddress({ latitude, longitude }) {
       {
         headers: {
           'Accept-Language': 'es', // dirección en español
-          'User-Agent': 'MiPortafolioSnayder/1.0' // Identifícate para evitar bloqueos
+          'User-Agent': 'MiPortafolioSnayder/1.0' // Identifícar para evitar bloqueos
         }
       }
     );
